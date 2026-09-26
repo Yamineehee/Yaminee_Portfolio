@@ -32,13 +32,12 @@ function App(){
     <p className="heroTiny">Building, analysing, automating — and usually asking “can this be done better?”</p>
    </div>
    <button className="scroll" onClick={()=>go('about')}>SCROLL TO EXPLORE <b>↓</b></button>
-   <div className="sidecode">01<br/>CODE<br/>DATA<br/>BUILD</div>
   </section>
 
   <section id="about" className="section about">
    <div className="label">01 / ABOUT</div>
    <div className="aboutGrid">
-    <div><div className="giant">HEY,<br/><span>THERE.</span></div><div className="marginNote">curious<br/>by default.</div></div>
+    <div><div className="giant">HEY,<br/><span>THERE.</span></div></div>
     <div className="aboutText">
      <p className="lead">I’m a curious human with a slightly concerning tendency to turn <strong>“that looks interesting”</strong> into a new hobby.</p>
      <p>Professionally, that curiosity lives around technology, data, automation, AI and problem-solving — building things, experimenting, figuring out how they work, and looking for better ways to make them useful.</p>
@@ -78,7 +77,7 @@ function App(){
 
   <section className="section skills"><div className="label">04 / TOOLBOX</div><div className="skillIntro"><h2>WHAT I<br/><i>WORK WITH.</i></h2><p>Technologies I’ve used across coursework, projects, internships and experiments — with the stack changing depending on the problem.</p></div><div className="cloud">{skills.map(s=><span key={s}>{s}</span>)}</div></section>
 
-  <section className="dance"><div className="danceGrid"><div className="label light">05 / BEYOND THE CODE</div><div className="danceBig">15</div><div className="danceCopy"><span>YEARS OF BHARATANATYAM</span><h2>ONE<br/><i>RHYTHM.</i></h2><p>Arangetram done. Visharad qualified. Weekend dance teacher. Former Head / President of the SIT dance club.</p><p className="note">Different medium. Same discipline.</p></div></div><div className="danceLine">ART <i/> DISCIPLINE <i/> EXPRESSION</div></section>
+  <section className="dance"><div className="danceGrid"><div className="label light">05 / BEYOND THE CODE</div><div className="danceBig"></div><div className="danceCopy"><span>15 YEARS OF BHARATANATYAM</span><h2>BEYOND<br/><i>TECH.</i></h2><p>Arangetram done. Visharad qualified. Weekend dance teacher. Former Head / President of the SIT dance club.</p><p className="note">Different medium. Same discipline.</p></div></div><div className="danceLine">ART <i/> DISCIPLINE <i/> EXPRESSION</div></section>
 
   <section id="contact" className="contact"><div className="label">06 / CONTACT</div><div className="contactBody"><p className="eyebrow">HAVE AN IDEA?</p><h2>LET'S TALK<span>.</span></h2><p>For opportunities, collaborations, interesting problems — or just a good conversation about technology.</p><div className="links"><a href={GITHUB} target="_blank" rel="noreferrer">GITHUB ↗</a><a href={LINKEDIN} target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href={EMAIL}>EMAIL ↗</a></div></div><footer><span>© 2026 YAMINEE CHAUDHARY</span><span>PUNE, INDIA</span><span>MADE WITH CURIOSITY.</span></footer></section>
  </div>;
